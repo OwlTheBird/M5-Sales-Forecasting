@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Output and Models
+models/
+*.parquet
+
+# Virtual Environments
+.venv/
+miniconda3/
+
+# Jupyter
+.ipynb_checkpoints/
