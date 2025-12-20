@@ -1,7 +1,7 @@
 import duckdb
 import os
 
-parquet_path = "train.parquet"
+parquet_path = "final_optimized.parquet"
 
 # 1. Check File Size (Sanity Check)
 file_size = os.path.getsize(parquet_path) / (1024**3)
