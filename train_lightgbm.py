@@ -30,7 +30,7 @@ print(f"Spark Version: {spark.version}")
 # 2. Load Data from Parquet
 # Adjust this path if 'final_optimized.parquet' is in a different subdirectory
 DATA_PATH = "ETL Process/final_optimized.parquet"
-MODEL_DIR = "models"
+MODEL_DIR = "models/LightGBM"
 os.makedirs(MODEL_DIR, exist_ok=True)
 
 # Read Parquet file
