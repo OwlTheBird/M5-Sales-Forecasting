@@ -1,7 +1,13 @@
+# Core data manipulation (Used after Spark downsampling)
 pandas>=1.3.0
+# Numerical computing foundation
 numpy>=1.21.0
+# The gradient boosting model (GPU optimized training)
 lightgbm>=3.3.0
 
+# Metrics and preprocessing utilities
 scikit-learn>=1.0.0
-# pyspark is needed if you run the training script, but not strictly for inference if using saved .txt model
+# Big Data processing: Efficiently reads & samples the 58M row dataset
 pyspark>=3.2.0 
+# Quick integrity checks for Parquet files (Verify_train-parquet.py)
+duckdb>=0.9.0 
