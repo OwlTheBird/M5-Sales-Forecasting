@@ -1,0 +1,7 @@
+pandas>=1.3.0
+numpy>=1.21.0
+lightgbm>=3.3.0
+
+scikit-learn>=1.0.0
+# pyspark is needed if you run the training script, but not strictly for inference if using saved .txt model
+pyspark>=3.2.0 
